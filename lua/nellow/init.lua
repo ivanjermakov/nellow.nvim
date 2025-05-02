@@ -90,8 +90,8 @@ local set_groups = function()
         { hg = "Normal",                      fg = c.fg,          bg = cfg.transparent and c.none or c.bg },
         { hg = "NormalFloat",                 bg = c.gray02 },
         { hg = "FloatBorder",                 fg = c.gray03 },
-        { hg = "Pmenu",                       fg = c.white,       bg = c.black },      -- Popup menu: normal item.
-        { hg = "PmenuSel",                    fg = c.white,       bg = c.gray03 },     -- Popup menu: selected item.
+        { hg = "Pmenu",                       fg = c.white,       bg = c.gray02 },     -- Popup menu: normal item.
+        { hg = "PmenuSel",                    fg = c.white,       bg = c.gray04 },     -- Popup menu: selected item.
         { hg = "PmenuSbar",                   bg = c.gray02 },                         -- Popup menu: scrollbar.
         { hg = "PmenuThumb",                  bg = c.gray03 },                         -- Popup menu: Thumb of the scrollbar.
         { hg = "Question",                    fg = c.cyan },                           -- hit-enter prompt and yes/no questions
